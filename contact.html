@@ -62,15 +62,18 @@
 		//$subject = 'Test mail';
 		//$message = 'Sending mail from wordpress';
 
-		$email = 'v.vengkat@gmail.com';
+		//$email = 'v.vengkat@gmail.com';
+		$email = 'contact@anselec.com';
 		$headers = 'From: '. $email . "\r\n" .
 		'Reply-To: ' . $email . "\r\n";		  
 		$sent = wp_mail($email, $subject, strip_tags($message), $headers);	
 		if($sent)   {
-			$message = 'Dear ' . $name . '\r\n Thanks for the message. We will get back to you soon.\r\nThanks,\r\n Ansel';
+			//$message = 'Dear ' . $name . '\r\n Thanks for the message. We will get back to you soon.\r\nThanks,\r\n Ansel';
+			$message = file_get_contents('./signature.html');
 			$headers = 'From: '. $email . "\r\n" .
-			'Reply-To: ' . $to . "\r\n";
-			$sent = wp_mail($to, 'Ansel Acknowledgement', strip_tags($message), $headers);	
+			'Reply-To: ' . $to . "\r\n" .
+			'Content-Type: text/html; charset=UTF-8';
+			$sent = wp_mail($to, 'Ansel Acknowledgement', $message, $headers);	
 		}
 		   
 	?>
@@ -102,15 +105,16 @@
 					<!-- Google map -->
 					<div class="map" id="map-canvas"></div>
 				</div>
+				<div class="row spad"></div>
 				<div class="map-section">
 					<div class="contact-info-warp">
 						<div class="contact-info">
 							<h4>Address</h4>
-							<p>10, 2nd Floor, JP Business Centre, 87, London Road, UK</p>
+							<p>4, Kesava Nagar, Tiruppapuliyur, Cuddalore, Tamilnadu, India</p>
 						</div>
 						<div class="contact-info">
 							<h4>Phone</h4>
-							<p>(+44) 7741112323</p>
+							<p>04142 226256 / 9944101181</p>
 						</div>
 						<div class="contact-info">
 							<h4>Email</h4>
