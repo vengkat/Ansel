@@ -33,7 +33,6 @@
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-
 	<!-- header section -->
 	<?php include('header.html'); ?>
 	<!-- header section end-->
