@@ -258,7 +258,7 @@ ol {
 .header-info .hf-item {
 	display: inline-block;
 	margin-left: 35px;
-	margin-top: 15px;
+	/* margin-top: 15px; */
 }
 
 .header-info .hf-item i {
@@ -399,6 +399,13 @@ ol {
 	width: 100%;
 }
 
+.owl-item p {
+	color: #fff;
+}
+
+.owl-item a {
+	color: #fff;
+}
 .hs-item .hs-text {
 	position: relative;
 	display: table-cell;

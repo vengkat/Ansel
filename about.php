@@ -46,7 +46,7 @@
 	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
+			<a href="home.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
 			<span>About Us</span>
 		</div>
 	</div>
@@ -129,7 +129,7 @@
 			<h3>Accreditations</h3>
 		</div>
 	<!-- Testimonial section  -->
-	<section class="testimonial-section">
+	<section class="testimonial-section" style="background-color: #000;color=#fff;">
 		<div class="container">				
 			<div class="testimonial-slider owl-carousel">
 				<div class="ts-item">

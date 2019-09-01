@@ -87,11 +87,11 @@
 					<div class="contact-info-warp">
 						<div class="contact-info">
 							<h4>Address</h4>
-							<p>10, 2nd Floor, JP Business Centre, 87, London Road, UK</p>
+							<p>10, 2nd Floor, JP Business Centre, 87, London Road, LEICESTER-LE11DJ, UK</p>
 						</div>
 						<div class="contact-info">
 							<h4>Phone</h4>
-							<p>(+44) 7741112323</p>
+							<p>(+44) 7741112323</p>							
 						</div>
 						<div class="contact-info">
 							<h4>Email</h4>
@@ -114,7 +114,7 @@
 						</div>
 						<div class="contact-info">
 							<h4>Phone</h4>
-							<p>04142 226256 / 9944101181</p>
+							<p>04142 226256 / 9944101181 / 7539904991</p>
 						</div>
 						<div class="contact-info">
 							<h4>Email</h4>

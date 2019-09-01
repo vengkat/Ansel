@@ -13,7 +13,7 @@ $(document).ready(function() {
 	if(location.pathname != "/") {
 		$('#nav a[href~="' + location.pathname.split("/")[1] + '"]').closest('li').addClass('active');
 	} else 
-		$('#nav a[href~="index.php"]').closest('li').addClass('active');
+		$('#nav a[href~="home.php"]').closest('li').addClass('active');
 	//$('#nav a:eq(0)').closest('li').addClass('active');
 });
 
