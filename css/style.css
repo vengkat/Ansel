@@ -236,6 +236,10 @@ ol {
 	/* padding: 20px 0; */
 	overflow: hidden;
 }
+.logo-wrapper{
+	float:left;
+	width: 105px;
+}
 
 /* .site-logo {
 	display: inline-block;
@@ -354,9 +358,15 @@ ol {
 }
 
 .nav-section .nav-right a {
-	color: #fff;
+	display: none;
+	color: #fff!important;
 	margin-left: 30px;
 	font-size: 16px;
+}
+
+.nav-section .nav-right a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    color: #fff!important;
+    text-decoration: none;
 }
 
 .main-menu {
@@ -1732,6 +1742,9 @@ ol {
 /* Medium screen : 992px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.nav-right{
+		display: none;
+	}
 	.counter-section .counter {
 		padding-left: 20px;
 	}
@@ -1795,6 +1808,44 @@ ol {
 /* Large Mobile :480px. */
 
 @media only screen and (max-width: 767px) {
+	.nav-section .nav-right a {		
+		color: #fff!important;		
+	}
+	
+	/* .nav-section .nav-right a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+		color: #fff!important;		
+	}
+
+	.nav-section .nav-right a .fa {
+		color: #fff!important;
+	}
+	.nav-section .nav-right a .fa-bars {
+		color: #fff!important;
+	}
+	.fa-navicon:before, .fa-reorder:before, .fa-bars:before {	
+		color: #fff!important;
+	} */
+	.logo-wrapper{		
+		width: 82px;
+	}
+	.site-logo{
+		width: 60px;
+	}
+	.header-text-first{
+		font-size: 40px;
+		color: #020031;
+	}
+	.header-text-second{
+		font-size: 40px;
+		color: #f6783a;
+	}
+	.header-text-third{
+		font-size: 23px;
+	}
+
+	.nav-section .nav-right a {
+		display: block;
+	}
 	.header-info {
 		display: none;
 	}

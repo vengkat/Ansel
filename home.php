@@ -9,9 +9,9 @@
 	<!-- Favicon -->   
 	<link href="img/favicon.ico" rel="shortcut icon"/>
 
-	<!-- Google Fonts -->
+	<!-- Scripts -->	
 	<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
-
+	<!-- Stylesheets -->
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
@@ -19,8 +19,8 @@
 	<link rel="stylesheet" href="css/magnific-popup.css"/>
 	<link rel="stylesheet" href="css/animate.css"/>
 	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
-
+	<link rel="stylesheet" href="css/style.css"/>	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -28,7 +28,7 @@
 	<![endif]-->
 
 </head>
-<body>
+<body>	
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
@@ -208,17 +208,17 @@
 					<div class="enroll-list text-white">
 						<div class="enroll-list-item">
 							<span>1</span>
-							<h5>Contact</h5>
+							<h5><a href="contact.php">Contact</a></h5>
 							<!-- <p>We are currently working with leading Colleges, Universities and Medical universities across the world.</p> -->
 						</div>
 						<div class="enroll-list-item">
 							<span>2</span>
-							<h5>Consulting</h5>
+							<h5><a href="contact.php">Consulting</a></h5>
 							<!-- <p>We are currently recruiting students for UK Guardianship programs, English language programs, vocational and academic programs.</p> -->
 						</div>
 						<div class="enroll-list-item">
 							<span>3</span>
-							<h5>Register</h5>
+							<h5><a href="contact.php">Register</a></h5>
 							<!-- <p>We are ICEF certified, Education New Zealand  & Cambridge English Assessment trained consultancy.</p> -->
 						</div>
 					</div>
@@ -453,14 +453,40 @@
 			<div class="row">
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/4.jpg"></div>
+						<div class="blog-thumb set-bg" data-setbg="img/blog/1.jpg"></div>
 						<div class="blog-content">
-							<h4>Latest news 1</h4>
+							<h4>The UK has good news for Indian students</h4>
 							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i> 01 Jun 2019</span>
+								<!-- <span><i class="fa fa-calendar-o"></i> 01 Jun 2019</span> -->
 								<!-- <span><i class="fa fa-user"></i> Owen Wilson</span> -->
 							</div>
-							<p>News description 1</p>
+							<p>In a move that could be the game changer for Indian students making overseas study decisions, the UK government announced on Wednesday that it was reinstating the two-year post study visa for foreign students.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6">
+					<div class="blog-item">
+						<div class="blog-thumb set-bg" data-setbg="img/blog/2.jpg"></div>
+						<div class="blog-content">
+							<h4>UK to extend work visas for foreign students by 2 yrs</h4>
+							<div class="blog-meta">
+								<!-- <span><i class="fa fa-calendar-o"></i>02 Jun 2019</span> -->
+								<!-- <span><i class="fa fa-user"></i> Owen Wilson</span> -->
+							</div>
+							<p>n a move that could be the game changer for Indian students making overseas study decisions, the UK government announced on Wednesday that it was reinstating the two-year post study visa for foreign students.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6">
+					<div class="blog-item">
+						<div class="blog-thumb set-bg" data-setbg="img/blog/3.jpg"></div>
+						<div class="blog-content">
+							<h4>UK universities welcome U-turn on student visas</h4>
+							<div class="blog-meta">
+								<!-- <span><i class="fa fa-calendar-o"></i>03 Jun 2019</span> -->
+								<!-- <span><i class="fa fa-user"></i> Owen Wilson</span> -->
+							</div>
+							<p>The UK government’s announcement of its plans to offer extended post-study work visas for international graduates of UK universities has received an unusual response –unalloyed praise from the higher education sector.</p>
 						</div>
 					</div>
 				</div>
@@ -468,38 +494,12 @@
 					<div class="blog-item">
 						<div class="blog-thumb set-bg" data-setbg="img/blog/4.jpg"></div>
 						<div class="blog-content">
-							<h4>Latest news 2</h4>
+							<h4>Two-year work rights for international students in UK reinstated for 2020/21</h4>
 							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i>02 Jun 2019</span>
+								<!-- <span><i class="fa fa-calendar-o"></i>04 Jun 2019</span> -->
 								<!-- <span><i class="fa fa-user"></i> Owen Wilson</span> -->
 							</div>
-							<p>News description 2</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-6">
-					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/4.jpg"></div>
-						<div class="blog-content">
-							<h4>Latest news 3</h4>
-							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i>03 Jun 2019</span>
-								<!-- <span><i class="fa fa-user"></i> Owen Wilson</span> -->
-							</div>
-							<p>News description 3</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-6">
-					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/4.jpg"></div>
-						<div class="blog-content">
-							<h4>Latest news 4</h4>
-							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i>04 Jun 2019</span>
-								<!-- <span><i class="fa fa-user"></i> Owen Wilson</span> -->
-							</div>
-							<p>News description 4</p>
+							<p>The UK education sector is elated that post-study work rights are set to be offered to international students for two years post-graduation, with students graduating in the 2020/21 academic year set to benefit from this new immigration rule.</p>
 						</div>
 					</div>
 				</div>
