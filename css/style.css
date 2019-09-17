@@ -344,6 +344,32 @@ ol {
 	        transform: rotate(45deg);
 	border-radius: 2px;
 } */
+/* .dropdown a:hover .dropdown-menu {display: block;}  */
+
+.dropdown:hover .dropdown-menu {display: block!important;}
+ol, ul{
+	margin-bottom: 0px!important;
+}
+.dropdown-menu{
+	background: #020031!important;
+	position: absolute!important;
+    top: 40px!important;
+    border-radius: 0px!important;    
+    width: 200px!important;
+}
+.dropdown-menu>li>a
+{
+	line-height: 1.5!important;
+	color: #fff!important;
+	width: 200px!important;
+}
+
+.dropdown:hover + dropdown-menu {
+    display: block;
+}
+.dropdown-menu>li>a:hover{
+	background: #f6783a!important;
+}
 .nav-switch {
 	display: none;
 }
@@ -1860,6 +1886,7 @@ ol {
 		top: 25px;
 		display: block;
 	}
+	
 	.nav-section .nav-right {
 		display: block;
 		float: none;
