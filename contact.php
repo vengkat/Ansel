@@ -1,41 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>ANSEL</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Unica University Template">
-	<meta name="keywords" content="event, unica, creative, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
-	<link href="img/favicon.ico" rel="shortcut icon"/>
-
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
-
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/themify-icons.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
-
-
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-</head>
+<!-- header section -->
+<?php include('header.html'); ?>
+	<!-- header section end-->
 <body>
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
-	</div>
-	<?php require(__DIR__ . '/wp-load.php');?>
-	<!-- header section -->
-	<?php include('header.html'); ?>
-	<!-- header section end-->
-
+	</div>	
 
 	<!-- Navigation section  -->
 	<?php include('navigation.html'); ?>
@@ -84,49 +54,72 @@
 		<section class="contact-page spad pt-0">
 			<div class="container">
 				<div class="map-section">
-					<div class="contact-info-warp">
-						<div class="contact-info">
-							<h4>Address</h4>
-							<p>10, 2nd Floor, JP Business Centre, 87, London Road, LEICESTER-LE11DJ, UK</p>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="contact-info-warp">
+								<div class="contact-info">
+									<h4>Address</h4>
+									<p>10, 2nd Floor, JP Business Centre, 87, London Road, LEICESTER-LE2 0PF, UK</p>
+								</div>
+								<div class="contact-info">
+									<h4>Phone</h4>
+									<p>(+44) 7741112323</p>							
+								</div>
+								<div class="contact-info">
+									<h4>Email</h4>
+									<p>contact@anselec.com</p>
+								</div>
+								<div class="contact-info">
+									<h4>Working time</h4>
+									<p>Monday - Friday: 08 AM - 06 PM</p>
+								</div>
+							</div>
 						</div>
-						<div class="contact-info">
-							<h4>Phone</h4>
-							<p>(+44) 7741112323</p>							
-						</div>
-						<div class="contact-info">
-							<h4>Email</h4>
-							<p>contact@anselec.com</p>
-						</div>
-						<div class="contact-info">
-							<h4>Working time</h4>
-							<p>Monday - Friday: 08 AM - 06 PM</p>
+						<div class="col-md-8">
+							<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.7098510713813!2d-1.124353334026206!3d52.629087235891156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877613cbe6a81f3%3A0x6b12a2a20a0bf223!2sLondon+Rd%2C+Leicester%2C+LE2+0PF%2C+UK!5e0!3m2!1sen!2sin!4v1508161889560" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen=""> -->
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.711013229893!2d-1.12510768500006!3d52.629066235894136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877613cb723e481%3A0x439dda947aec3a1f!2sJP%20Business%20Centre%2C%2087%20London%20Rd%2C%20Leicester%20LE2%200PF%2C%20UK!5e0!3m2!1sen!2sin!4v1569129169865!5m2!1sen!2sin" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+							</iframe>
 						</div>
 					</div>
+					
 					<!-- Google map -->
-					<div class="map" id="map-canvas"></div>
+					<!-- <div class="map" id="map-canvas"></div> -->
+					<!-- <div class="map">
+						
+					</div> -->
 				</div>
-				<div class="row spad"></div>
+				<div class="row spad" style="margin-top: 80px;"></div>
 				<div class="map-section">
-					<div class="contact-info-warp">
-						<div class="contact-info">
-							<h4>Address</h4>
-							<p>4, Kesava Nagar, Tiruppapuliyur, Cuddalore, Tamilnadu, India</p>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="contact-info-warp">
+								<div class="contact-info">
+									<h4>Address</h4>
+									<p>4, Kesava Nagar, Tiruppapuliyur, Cuddalore, Tamilnadu, India</p>
+								</div>
+								<div class="contact-info">
+									<h4>Phone</h4>
+									<p>04142 226256 / 9944101181 / 7539904991</p>
+								</div>
+								<div class="contact-info">
+									<h4>Email</h4>
+									<p>contact@anselec.com</p>
+								</div>
+								<div class="contact-info">
+									<h4>Working time</h4>
+									<p>Monday - Friday: 08 AM - 06 PM</p>
+								</div>
+							</div>
 						</div>
-						<div class="contact-info">
-							<h4>Phone</h4>
-							<p>04142 226256 / 9944101181 / 7539904991</p>
-						</div>
-						<div class="contact-info">
-							<h4>Email</h4>
-							<p>contact@anselec.com</p>
-						</div>
-						<div class="contact-info">
-							<h4>Working time</h4>
-							<p>Monday - Friday: 08 AM - 06 PM</p>
+						<div class="col-md-8">
+							<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.7098510713813!2d-1.124353334026206!3d52.629087235891156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877613cbe6a81f3%3A0x6b12a2a20a0bf223!4+Kesava+Nagar%2C+Tiruppapuliyur+Cuddalore+0QR%2C+Tamilnadu+India!5e0!3m2!1sen!2sin!4v1508161889560" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen=""> -->
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1953.1386017328355!2d79.75001750788091!3d11.74551129791713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54987cdc0942cb%3A0x4dc5767817a21a5!2z4K6y4K6f4K-N4K6a4K-B4K6u4K6_IOCuh-Cun-Cuv-Cur-CuvuCuquCvjeCuquCuruCvjSDgrprgrqrgr43grrPgr4jgrq_grrDgr43grrjgr40gQnkgT3JkZXI!5e0!3m2!1sen!2sin!4v1569067814270!5m2!1sen!2sin" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen="">
+								</iframe>
+							</iframe>
 						</div>
 					</div>
 					<!-- Google map -->
-					<div class="map" id="map-canvas-1"></div>
+					<!-- <div class="map" id="map-canvas-1"></div> -->
 				</div>
 				<div class="contact-form spad pb-0">
 					<div class="section-title text-center">
@@ -136,16 +129,16 @@
 					<form class="comment-form --contact" method="POST">
 						<div class="row">
 							<div class="col-lg-4">
-								<input type="text" id="name" name="name" placeholder="Your Name">
+								<input type="text" id="name" name="name" placeholder="Your Name" required>
 							</div>
 							<div class="col-lg-4">
-								<input type="text" id="email" name="email" placeholder="Your Email">
+								<input type="text" id="email" name="email" placeholder="Your Email" required>
 							</div>
 							<div class="col-lg-4">
-								<input type="text" id="subject" name="subject" placeholder="Subject">
+								<input type="text" id="subject" name="subject" placeholder="Subject" required>
 							</div>
 							<div class="col-lg-12">
-								<textarea id="message" name="message" placeholder="Message"></textarea>
+								<textarea id="message" name="message" placeholder="Message" required></textarea>
 								<div class="text-center">
 									<!-- <input type="submit" class="site-btn"></input> -->
 									<input type="submit" name="submit" class="site-btn">
@@ -176,8 +169,10 @@
 
 
 	<!-- load for map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo"></script>
-	<script src="js/map.js"></script>
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5YieqgGUqUb5k55Hg5m2iAARwuRn1EpY"></script> -->
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo&callback=initialize"></script>	 -->
+	<!-- <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyD5oMOq3XPDiMv3Cn4ZDPloR3G2o0t1dU0'></script>
+	<script src="js/map.js"></script> -->
 	
 </body>
 </html>

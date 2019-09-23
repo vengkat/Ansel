@@ -1,3 +1,16 @@
+$(document).ready(function(){
+    $(".dropdown-toggle").click(function(){        
+        if($(".dropdown-menu").css('display')=='block'){
+            HideSubmenu();
+        }
+        else{
+            $(".dropdown-menu").css('display','block');
+        }
+    })
+});
+function HideSubmenu(){        
+    $(".dropdown-menu").css('display','none');
+}
 function ToggleMenu() {
     if($(".main-menu").css("display")=="none")
     {
@@ -11,3 +24,4 @@ function ToggleMenu() {
         $(".nav-right a i").addClass("fa-bars");
     }
 }
+

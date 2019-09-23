@@ -1,34 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>ANSEL</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Unica University Template">
-	<meta name="keywords" content="event, unica, creative, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
-	<link href="img/favicon.ico" rel="shortcut icon"/>
+<link rel="stylesheet" type="text/css" href="css/main_styles.css"> 
+<!-- header section -->
+<?php include('header.html'); ?>
 
-	<!-- Scripts -->	
-	<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
-	<!-- Stylesheets -->
-	<!-- Stylesheets -->
-	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"/> -->
-	
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-</head>
+<!-- header section end-->
 <body>	
 	<!-- Page Preloder -->
-	<div id="preloder">
+	<!-- <div id="preloder">
 		<div class="loader"></div>
-	</div>
-	<!-- header section -->
-	<?php include('header.html'); ?>
-	<!-- header section end-->
+	</div> -->
 
 
 	<!-- Navigation section  -->
@@ -60,7 +39,7 @@
 								<div class="hs-subtitle">Overseas Education</div>
 								<h2 class="hs-title">Admission.</h2>
 								<p class="hs-des">Every institution has its own accommodation for its students.<br> We discuss and advise you on all accommodation options available in the destination country.</p>
-								<a href =contact.html><div class="site-btn">REGISTER</div></a>
+								<a href =contact.php><div class="site-btn">REGISTER</div></a>
 							</div>
 						</div>
 					</div>
@@ -82,42 +61,123 @@
 			</div>
 		</div>
 	</section>
+	
 	<!-- Hero section end -->
 
-
-	<!-- Counter section  -->
-	<!-- <section class="counter-section">
+	<div class="language">
+		<div class="text-center">
+			<h3>STUDY ABROAD</h3>
+		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-7 col-md-6">
-					<div class="big-icon">
-						<i class="fa fa-graduation-cap"></i>
-					</div>
-					<div class="counter-content">
-						<h2>Ansel Education Fair on 10th & 11th June 2019</h2>
-						<p><i class="fa fa-calendar-o"></i>07:00 PM - 09:00 PM</p>
+				<div class="col">								
+					<div class="language_slider_container">						
+						<!-- Language Slider -->
+						<div class="owl-carousel owl-theme language_slider">
+							<!-- Flag -->
+							<div class="owl-item language_item">
+								<a href="#">
+									<div class="flag"><img src="img/study_destinations/countries/australia.svg" alt=""></div>
+									<div class="lang_name">Australia</div>
+								</a>
+							</div>
+
+							<!-- Flag -->
+							<div class="owl-item language_item">
+								<a href="#">
+									<div class="flag"><img src="img/study_destinations/countries/canada.svg" alt=""></div>
+									<div class="lang_name">Canada</div>
+								</a>
+							</div>
+
+							<!-- Flag -->
+							<div class="owl-item language_item">
+								<a href="#">
+									<div class="flag"><img src="img/study_destinations/countries/european-union.svg" alt=""></div>
+									<div class="lang_name">Europe</div>
+								</a>
+							</div>
+
+							<!-- Flag -->
+							<div class="owl-item language_item">
+								<a href="#">
+									<div class="flag"><img src="img/study_destinations/countries/grenada.svg" alt=""></div>
+									<div class="lang_name">Grenada</div>
+								</a>
+							</div>
+
+							<!-- Flag -->
+							<div class="owl-item language_item">
+								<a href="#">
+									<div class="flag"><img src="img/study_destinations/countries/malaysia.svg" alt=""></div>
+									<div class="lang_name">Malaysia</div>
+								</a>
+							</div>
+
+							<!-- Flag -->
+							<div class="owl-item language_item">
+								<a href="#">
+									<div class="flag"><img src="img/study_destinations/countries/new-zealand.svg" alt=""></div>
+									<div class="lang_name">New Zealand</div>
+								</a>
+							</div>
+
+							<!-- Flag -->
+							<div class="owl-item language_item">
+								<a href="#">
+									<div class="flag"><img src="img/study_destinations/countries/russia.svg" alt=""></div>
+									<div class="lang_name">Russia</div>
+								</a>
+							</div>
+
+							<!-- Flag -->
+							<div class="owl-item language_item">
+								<a href="#">
+									<div class="flag"><img src="img/study_destinations/countries/singapore.svg" alt=""></div>
+									<div class="lang_name">Singapore</div>
+								</a>
+							</div>
+							
+							<!-- Flag -->
+							<div class="owl-item language_item">
+								<a href="StudyDestinations.php?q=UK">
+									<div class="flag"><img src="img/study_destinations/countries/united-kingdom.svg" alt=""></div>
+									<div class="lang_name">UK</div>
+								</a>
+							</div>
+							
+							<!-- Flag -->
+							<div class="owl-item language_item">
+								<a href="StudyDestinations.php?q=US">
+									<div class="flag"><img src="img/study_destinations/countries/united-states.svg" alt=""></div>
+									<div class="lang_name">USA</div>
+								</a>
+							</div>
+							
+							<!-- Flag -->
+							<div class="owl-item language_item">
+								<a href="#">
+									<div class="flag"><img src="img/study_destinations/countries/ukraine.svg" alt=""></div>
+									<div class="lang_name">Ukrane</div>
+								</a>
+							</div>
+
+						</div>
+
+						<div class="lang_nav lang_prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+						<div class="lang_nav lang_next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
 					</div>
 				</div>
-				<div class="col-lg-5 col-md-6">
-					<div class="counter">
-						<div class="counter-item"><h4>20</h4>Days</div>
-						<div class="counter-item"><h4>08</h4>Hrs</div>
-						<div class="counter-item"><h4>40</h4>Mins</div>
-						<div class="counter-item"><h4>56</h4>secs</div>
-					</div>
-				</div
 			</div>
 		</div>
-	</section>> -->
-	<!-- Counter section end -->
-
+	</div>
 
 	<!-- Services section -->
 	<section class="service-section spad">
 		<div class="container services">
 			<div class="section-title text-center">
 				<h3>OUR SERVICES</h3>
-				<p>We provides the opportunity to prepare for life</p>
+				<p>We provides the opportunity to prepare for future</p>
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-sm-6 service-item">
@@ -224,218 +284,6 @@
 	</section>
 	<!-- Enroll section end -->
 
-
-	<!-- Courses section -->
-	<!-- <section class="courses-section spad"> -->
-		<!-- <div class="container">
-			<div class="section-title text-center">
-				<h3>OUR COURSES</h3>
-				<p>Building a better world, one course at a time</p>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/1.jpg" alt="">
-						<div class="course-cat">
-							<span>BUSINESS</span>
-						</div>
-					</div>
-					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Certificate Course in Writing<br>for a Global Market</h4>
-						<h4 class="cource-price">$100<span>/month</span></h4>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/2.jpg" alt="">
-						<div class="course-cat">
-							<span>Marketing</span>
-						</div>
-					</div>
-					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Google AdWords: Get More<br> Customers with Search Marketing </h4>
-						<h4 class="cource-price">$150<span>/month</span></h4>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/3.jpg" alt="">
-						<div class="course-cat">
-							<span>DESIGN</span>
-						</div>
-					</div>
-					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>The Ultimate Drawing Course<br> Beginner to Advanced</h4>
-						<h4 class="cource-price">$180<span>/month</span></h4>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/4.jpg" alt="">
-						<div class="course-cat">
-							<span>DATABASE</span>
-						</div>
-					</div>
-					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert</h4>
-						<h4 class="cource-price">$150<span>/month</span></h4>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/5.jpg" alt="">
-						<div class="course-cat">
-							<span>PROGRAM</span>
-						</div>
-					</div>
-					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Web Developer Bootcamp<br>Make web  applications</h4>
-						<h4 class="cource-price">$250<span>/month</span></h4>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/6.jpg" alt="">
-						<div class="course-cat">
-							<span>BUSINESS</span>
-						</div>
-					</div>
-					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>How to Start an Amazon<br>FBA Store on a Tight Budget</h4>
-						<h4 class="cource-price">$150<span>/month</span></h4>
-					</div>
-				</div>
-			</div>
-		</div> -->
-	<!-- </section> -->
-	<!-- Courses section end-->
-
-
-	<!-- Fact section -->
-	<!-- <section class="fact-section spad set-bg" data-setbg="img/fact-bg.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-lg-3 fact">
-					<div class="fact-icon">
-						<i class="ti-crown"></i>
-					</div>
-					<div class="fact-text">
-						<h2>50</h2>
-						<p>YEARS</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3 fact">
-					<div class="fact-icon">
-						<i class="ti-briefcase"></i>
-					</div>
-					<div class="fact-text">
-						<h2>80</h2>
-						<p>TEACHERS</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3 fact">
-					<div class="fact-icon">
-						<i class="ti-user"></i>
-					</div>
-					<div class="fact-text">
-						<h2>500</h2>
-						<p>STUDENTS</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3 fact">
-					<div class="fact-icon">
-						<i class="ti-pencil-alt"></i>
-					</div>
-					<div class="fact-text">
-						<h2>800+</h2>
-						<p>LESSONS</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<!-- Fact section end-->
-
-
-	<!-- Event section -->
-	<!-- <section class="event-section spad">
-		<div class="container">
-			<div class="section-title text-center">
-				<h3>OUR EVENTS</h3>
-				<p>Our department  initiated a series of events</p>
-			</div>
-			<div class="row">
-				<div class="col-md-6 event-item">
-					<div class="event-thumb">
-						<img src="img/event/1.jpg" alt="">
-						<div class="event-date">
-							<span>24 Mar 2018</span>
-						</div>
-					</div>
-					<div class="event-info">
-						<h4>The dos and don'ts of writing a personal<br>statement for languages</h4>
-						<p><i class="fa fa-calendar-o"></i> 08:00 AM - 10:00 AM <i class="fa fa-map-marker"></i> Center Building, Block A</p>
-						<a href="" class="event-readmore">REGISTER <i class="fa fa-angle-double-right"></i></a>
-					</div>
-				</div>
-				<div class="col-md-6 event-item">
-					<div class="event-thumb">
-						<img src="img/event/2.jpg" alt="">
-						<div class="event-date">
-							<span>22 Mar 2018</span>
-						</div>
-					</div>
-					<div class="event-info">
-						<h4>University interview tips:<br>confidence won't make up for flannel</h4>
-						<p><i class="fa fa-calendar-o"></i> 08:00 AM - 10:00 AM <i class="fa fa-map-marker"></i> Center Building, Block A</p>
-						<a href="" class="event-readmore">REGISTER <i class="fa fa-angle-double-right"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<!-- Event section end -->
-
-
-	<!-- Gallery section -->
-	<!-- <div class="gallery-section">
-		<div class="gallery">
-			<div class="grid-sizer"></div>
-			<div class="gallery-item gi-big set-bg" data-setbg="img/gallery/1.jpg">
-				<a class="img-popup" href="img/gallery/1.jpg"><i class="ti-plus"></i></a>
-			</div>
-			<div class="gallery-item set-bg" data-setbg="img/gallery/2.jpg">
-				<a class="img-popup" href="img/gallery/2.jpg"><i class="ti-plus"></i></a>
-			</div>
-			<div class="gallery-item set-bg" data-setbg="img/gallery/3.jpg">
-				<a class="img-popup" href="img/gallery/3.jpg"><i class="ti-plus"></i></a>
-			</div>
-			<div class="gallery-item gi-long set-bg" data-setbg="img/gallery/5.jpg">
-				<a class="img-popup" href="img/gallery/5.jpg"><i class="ti-plus"></i></a>
-			</div>
-			<div class="gallery-item gi-big set-bg" data-setbg="img/gallery/8.jpg">
-				<a class="img-popup" href="img/gallery/8.jpg"><i class="ti-plus"></i></a>
-			</div>
-			<div class="gallery-item gi-long set-bg" data-setbg="img/gallery/4.jpg">
-				<a class="img-popup" href="img/gallery/4.jpg"><i class="ti-plus"></i></a>
-			</div>
-			<div class="gallery-item set-bg" data-setbg="img/gallery/6.jpg">
-				<a class="img-popup" href="img/gallery/6.jpg"><i class="ti-plus"></i></a>
-			</div>
-			<div class="gallery-item set-bg" data-setbg="img/gallery/7.jpg">
-				<a class="img-popup" href="img/gallery/7.jpg"><i class="ti-plus"></i></a>
-			</div>
-		</div>
-	</div> -->
-	<!-- Gallery section -->
-
-
 	<!-- Blog section -->
 	<section class="blog-section spad">
 		<div class="container">
@@ -499,42 +347,13 @@
 			</div>
 		</div>
 	</section>
-	<!-- Blog section -->
-
-
-	<!-- Newsletter section -->
-	<!-- <section class="newsletter-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5 col-lg-7">
-					<div class="section-title mb-md-0">
-					<h3>NEWSLETTER</h3>
-					<p>Subscribe and get the latest news and useful tips, advice and best offer.</p>
-				</div>
-				</div>
-				<div class="col-md-7 col-lg-5">
-					<form class="newsletter">
-						<input type="text" placeholder="Enter your email">
-						<button class="site-btn">SUBSCRIBE</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<!-- Newsletter section end -->	
-
 
 	<!-- Footer section -->
 	<?php include('footer.html'); ?>
 	<!-- Footer section end-->
-
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.countdown.js"></script>
-	<script src="js/masonry.pkgd.min.js"></script>
-	<script src="js/magnific-popup.min.js"></script>
-	<script src="js/main.js"></script>
-	
-</body>
+	<!-- </div> -->
+	</body>
 </html>
+
+<script src="js/custom.js"></script>
+<script src="js/main.js"></script>

@@ -10,11 +10,10 @@
 'use strict';
 
 $(document).ready(function() {
-	if(location.pathname != "/") {
-		$('#nav a[href~="' + location.pathname.split("/")[1] + '"]').closest('li').addClass('active');
-	} else 
-		$('#nav a[href~="home.php"]').closest('li').addClass('active');
-	//$('#nav a:eq(0)').closest('li').addClass('active');
+	// if(location.pathname != "/") {
+	// 	$('#nav a[href~="' + location.pathname.split("/")[1] + '"]').closest('li').addClass('active');
+	// } else 
+	// 	$('#nav a[href~="home.php"]').closest('li').addClass('active');	
 });
 
 var window_w = $(window).innerWidth();
@@ -69,14 +68,15 @@ $(window).on('load', function() {
 		items: 1,
 		autoplay: true
 	});
+	
 
 
 	/*------------------
 		Counter
 	--------------------*/
-	$(".counter").countdown("2018/07/01", function(event) {
-		$(this).html(event.strftime("<div class='counter-item'><h4>%D</h4>Days</div>" + "<div class='counter-item'><h4>%H</h4>hours</div>" + "<div class='counter-item'><h4>%M</h4>Mins</div>" + "<div class='counter-item'><h4>%S</h4>secs</div>"));
-	});
+	// $(".counter").countdown("2018/07/01", function(event) {
+	// 	$(this).html(event.strftime("<div class='counter-item'><h4>%D</h4>Days</div>" + "<div class='counter-item'><h4>%H</h4>hours</div>" + "<div class='counter-item'><h4>%M</h4>Mins</div>" + "<div class='counter-item'><h4>%S</h4>secs</div>"));
+	// });
 
 
 	/*------------------
@@ -93,10 +93,10 @@ $(window).on('load', function() {
 		}
 	});
 
-	$('.gallery').masonry({
-		itemSelector: '.gallery-item',
-		columnWidth: '.grid-sizer'
-	});
+	// $('.gallery').masonry({
+	// 	itemSelector: '.gallery-item',
+	// 	columnWidth: '.grid-sizer'
+	// });
 	
 
 
@@ -119,11 +119,11 @@ $(window).on('load', function() {
 	/*------------------
 		Popup
 	--------------------*/
-	$('.img-popup').magnificPopup({
-		type: 'image',
-		mainClass: 'img-popup-warp',
-		removalDelay: 400,
-	});
+	// $('.img-popup').magnificPopup({
+	// 	type: 'image',
+	// 	mainClass: 'img-popup-warp',
+	// 	removalDelay: 400,
+	// });
 
 
 
