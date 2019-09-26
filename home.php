@@ -76,7 +76,7 @@
 						<div class="owl-carousel owl-theme language_slider">
 							<!-- Flag -->
 							<div class="owl-item language_item">
-								<a href="#">
+								<a href="StudyDestinations.php?q=AU">
 									<div class="flag"><img src="img/study_destinations/countries/australia.svg" alt=""></div>
 									<div class="lang_name">Australia</div>
 								</a>
@@ -84,7 +84,7 @@
 
 							<!-- Flag -->
 							<div class="owl-item language_item">
-								<a href="#">
+								<a href="StudyDestinations.php?q=CA">
 									<div class="flag"><img src="img/study_destinations/countries/canada.svg" alt=""></div>
 									<div class="lang_name">Canada</div>
 								</a>
@@ -92,7 +92,7 @@
 
 							<!-- Flag -->
 							<div class="owl-item language_item">
-								<a href="#">
+								<a href="StudyDestinations.php?q=EU">
 									<div class="flag"><img src="img/study_destinations/countries/european-union.svg" alt=""></div>
 									<div class="lang_name">Europe</div>
 								</a>
@@ -100,7 +100,7 @@
 
 							<!-- Flag -->
 							<div class="owl-item language_item">
-								<a href="#">
+								<a href="StudyDestinations.php?q=GD">
 									<div class="flag"><img src="img/study_destinations/countries/grenada.svg" alt=""></div>
 									<div class="lang_name">Grenada</div>
 								</a>
@@ -108,7 +108,7 @@
 
 							<!-- Flag -->
 							<div class="owl-item language_item">
-								<a href="#">
+								<a href="StudyDestinations.php?q=MY">
 									<div class="flag"><img src="img/study_destinations/countries/malaysia.svg" alt=""></div>
 									<div class="lang_name">Malaysia</div>
 								</a>
@@ -116,7 +116,7 @@
 
 							<!-- Flag -->
 							<div class="owl-item language_item">
-								<a href="#">
+								<a href="StudyDestinations.php?q=NZ">
 									<div class="flag"><img src="img/study_destinations/countries/new-zealand.svg" alt=""></div>
 									<div class="lang_name">New Zealand</div>
 								</a>
@@ -124,7 +124,7 @@
 
 							<!-- Flag -->
 							<div class="owl-item language_item">
-								<a href="#">
+								<a href="StudyDestinations.php?q=RU">
 									<div class="flag"><img src="img/study_destinations/countries/russia.svg" alt=""></div>
 									<div class="lang_name">Russia</div>
 								</a>
@@ -132,7 +132,7 @@
 
 							<!-- Flag -->
 							<div class="owl-item language_item">
-								<a href="#">
+								<a href="StudyDestinations.php?q=SG">
 									<div class="flag"><img src="img/study_destinations/countries/singapore.svg" alt=""></div>
 									<div class="lang_name">Singapore</div>
 								</a>
@@ -156,7 +156,7 @@
 							
 							<!-- Flag -->
 							<div class="owl-item language_item">
-								<a href="#">
+								<a href="StudyDestinations.php?q=UA">
 									<div class="flag"><img src="img/study_destinations/countries/ukraine.svg" alt=""></div>
 									<div class="lang_name">Ukrane</div>
 								</a>

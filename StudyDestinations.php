@@ -54,6 +54,9 @@
 		}if($queries['q']=='US'){			
 			include('study-destinations/US.htm');
 		}
+		if($queries['q']=='UA'){			
+			include('study-destinations/Ukraine.htm');
+		}
 	?>
 		
 	<?php include('footer.html'); ?>
